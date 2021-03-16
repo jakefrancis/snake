@@ -1,4 +1,4 @@
-# Snake
+# Snake 🐍
 
 Pure JS implementation of the game Snake.
 Mobile and touch friendly.
