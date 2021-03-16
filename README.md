@@ -14,8 +14,10 @@ swipe in the direction you want the snake to move on mobile.
 Move the snake towards it's food source, everytime a piece of food is consumed the snake grows by one segment.
 The edges of the game area wrap, i.e. if the snake is traveling to the right and moves off the screen, the head of the snake will 'wrap' around and appear on the left edge of the screen.
 
+If the head of the snake eats a part of it's own body it's GAME OVER.
+
 ## Installation
 
 Simply download this repository and open the index.html file in your web browser.
 
-Hosted version of the game coming soon. 
+Hosted version of the game coming very soon. 
