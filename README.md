@@ -16,6 +16,8 @@ The edges of the game area wrap, i.e. if the snake is traveling to the right and
 
 If the head of the snake eats a part of it's own body it's GAME OVER.
 
+Eat as much food as you can!
+
 ## Installation
 
 Simply download this repository and open the index.html file in your web browser.
