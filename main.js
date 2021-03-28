@@ -351,11 +351,11 @@ function Engine() {
   let yDown = null;
 
   function getTouches(event) {
-    return evt.touches;
+    return event.touches;
   }
 
   function handleTouchStart(event) {
-    const firstTouch = getTouches(evt)[0];
+    const firstTouch = getTouches(event)[0];
     xDown = firstTouch.clientX;
     yDown = firstTouch.clientY;
   }
@@ -365,8 +365,8 @@ function Engine() {
       return;
     }
 
-    let xUp = evt.touches[0].clientX;
-    let yUp = evt.touches[0].clientY;
+    let xUp = event.touches[0].clientX;
+    let yUp = event.touches[0].clientY;
 
     let xDiff = xDown - xUp;
     let yDiff = yDown - yUp;
