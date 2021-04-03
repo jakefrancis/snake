@@ -36,6 +36,7 @@ function Engine() {
   document.body.style.background = gameColors.background;
 
   const gameContainer = document.createElement("div");
+  gameContainer.className = 'wrap'
 
   document.body.appendChild(gameContainer);
 
@@ -55,8 +56,8 @@ function Engine() {
 
   const canvas = document.createElement("canvas");
   canvas.style.display = "block";
-  canvas.style.marginLeft = "auto";
-  canvas.style.marginRight = "auto";
+  //canvas.style.marginLeft = "auto";
+  //canvas.style.marginRight = "auto";
 
   const score = document.createElement("h1");
   score.style.fontSize = "3vh";
