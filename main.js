@@ -24,7 +24,7 @@ function Engine() {
   //speed game will run
   const frameRate = 10;
 
-  const percent = 0.8;
+  const percent = 0.7;
   const percentHeight = 1;
   //adjusts size and step to fit the
   if (window.innerWidth > window.innerHeight) {
@@ -45,7 +45,7 @@ function Engine() {
   container.style.display = "block";
   container.style.marginLeft = "auto";
   container.style.marginRight = "auto";
-  container.style.width = maxWidth.toString() + "px";
+  container.style.width = (maxWidth *1.1).toString() + "px";
   container.style.height = (maxWidth + step + step).toString() + "px";
 
   container.style.maxWidth = (percent * 100).toString() + "%";
